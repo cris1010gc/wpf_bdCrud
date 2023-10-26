@@ -28,7 +28,7 @@
 
             <StackPanel Orientation="Horizontal">
                 <Button Content="Mostrar" Style="{StaticResource BotonGenerico}" Click="Mostrar_Click" />
-                <Button Content="Salir" Style="{StaticResource BotonGenerico}" Click="Salir_Click"/>
+                <Button Content="Salir" Style="{StaticResource BotonGenericoSalir}" Click="Salir_Click"/>
             </StackPanel>
 
         </StackPanel>
