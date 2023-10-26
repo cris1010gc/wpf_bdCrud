@@ -1,0 +1,40 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="BotonGenerico" TargetType="Button">
+        <!-- Define un estilo llamado "BotonGenerico" para los elementos Button -->
+
+        <!-- Establece el color de fondo del botón a un tono de azul -->
+        <Setter Property="Background" Value="#007ACC" />
+        <!-- Establece el color del texto en blanco -->
+        <Setter Property="Foreground" Value="White" />
+        <!-- Establece el relleno interior del botón (ancho: 10 unidades, alto: 5 unidades) -->
+        <Setter Property="Padding" Value="10,5" />
+        <!-- Establece el grosor del borde del botón en 1 unidad -->
+        <Setter Property="BorderThickness" Value="1" />
+        <!-- Establece el color del borde en un tono de azul que coincide con el color de fondo -->
+        <Setter Property="BorderBrush" Value="#007ACC" />
+        <!-- Establece la fuente del texto en "Arial" -->
+        <Setter Property="FontFamily" Value="Arial" />
+        <!-- Establece el tamaño de fuente en 25 unidades -->
+        <Setter Property="FontSize" Value="25" />
+        <!-- Establece el cursor como "Hand" (un puntero) cuando se coloca sobre el botón -->
+        <Setter Property="Cursor" Value="Hand" />
+        <!-- Establece el margen externo del botón (5 unidades en cada lado) -->
+        <Setter Property="Margin" Value="5 5 5 5" />
+
+        <!-- Ajusta el tamaño del botón -->
+        <!-- Establece el ancho del botón en 200 unidades -->
+        <Setter Property="Width" Value="200" />
+        <!-- Establece el alto del botón en 60 unidades -->
+        <Setter Property="Height" Value="60" />
+
+        <!-- Desencadenadores -->
+        <Style.Triggers>
+            <!-- Cambia el color de fondo cuando el mouse se encuentra sobre el botón -->
+            <Trigger Property="IsMouseOver" Value="True">
+                <!-- Establece un tono de azul diferente como color de fondo -->
+                <Setter Property="Background" Value="#005A9C" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>
