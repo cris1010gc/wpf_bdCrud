@@ -10,7 +10,6 @@ namespace WpfApp_Crud_SQL.Modelo
     {   // Atributos 
         private String nombre;
         private String descripcion;
-        private String tutoria;
         // Constructor
         public class_Rol(string NOMBRE, string DESCRIPCION)
         {
